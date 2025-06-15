@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+header{
+    background-color: blue;
+    /* border-style: solid; */
+    /* border-color: red; */
+    
+}
+nav{
+    border-color: rgb(29red, 186green, 160blue);
+    box-shadow: 0px 0px 20px ;
+    border-bottom: 2px solid ;
+    height: 80px;
+    /* background-color: blue; */
+    display: flex;
+    gap: 537px;
+}
+
+    .siteName{
+        color: white;
+        height: 100%; 
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 119px;
+    } 
+    .navMenu{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    /* padding-right: 120px; */
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
